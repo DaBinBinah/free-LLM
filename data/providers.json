@@ -241,6 +241,66 @@
       },
       "last_verified": "2026-09-02",
       "note": "Yi-Lightning 性能强劲且响应速度极快"
+    },
+    {
+      "id": "sensenova",
+      "name": "商汤日日新 (SenseNova)",
+      "company": "商汤科技",
+      "website": "https://sensenova.cn/models",
+      "console_url": "https://sensenova.cn/models",
+      "api_doc_url": "https://sensenova.cn/models",
+      "base_url": "待确认",
+      "openai_compatible": false,
+      "free_tier_type": "free_points",
+      "free_tier_desc": "当前平台提供约 60 万积分免费额度，可使用 GLM、K3 等模型；免费政策可能调整，请以官方页面为准。",
+      "auth_requirements": {
+        "phone_required": true,
+        "real_name_required": false,
+        "credit_card_required": false,
+        "recharge_required": false
+      },
+      "last_verified": "2026-09-02",
+      "note": "中国官方平台，提供 GLM、K3 等模型免费额度体验"
+    },
+    {
+      "id": "amd-developer",
+      "name": "AMD 开发者平台",
+      "company": "AMD (中国)",
+      "website": "https://developer.amd.com.cn",
+      "console_url": "https://developer.amd.com.cn",
+      "api_doc_url": "https://developer.amd.com.cn",
+      "base_url": "待确认",
+      "openai_compatible": false,
+      "free_tier_type": "limited_time_free",
+      "free_tier_desc": "⚠️ 限时免费：当前可免费使用 DeepSeek V4 Flash，活动可能随时结束，建议尽快领取。",
+      "auth_requirements": {
+        "phone_required": true,
+        "real_name_required": false,
+        "credit_card_required": false,
+        "recharge_required": false
+      },
+      "last_verified": "2026-09-02",
+      "note": "🔥 限时福利：重点提供 DeepSeek V4 Flash 免费体验"
+    },
+    {
+      "id": "huaweicloud-codearts",
+      "name": "华为云 CodeArts / 码道",
+      "company": "华为云",
+      "website": "https://activity.huaweicloud.com/codearts_agent.html",
+      "console_url": "https://activity.huaweicloud.com/codearts_agent.html",
+      "api_doc_url": "https://activity.huaweicloud.com/codearts_agent.html",
+      "base_url": "待确认",
+      "openai_compatible": false,
+      "free_tier_type": "limited_time_free",
+      "free_tier_desc": "⚡ 限时活动：每人每天免费赠送 1000 万 Tokens，可使用 GLM5.3Flash。活动规则可能调整，请以华为云官方页面为准。",
+      "auth_requirements": {
+        "phone_required": true,
+        "real_name_required": true,
+        "credit_card_required": false,
+        "recharge_required": false
+      },
+      "last_verified": "2026-09-02",
+      "note": "🔥 限时福利：CodeArts / 码道每人每天免费 1000 万 Tokens"
     }
   ]
 }

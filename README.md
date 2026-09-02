@@ -11,7 +11,7 @@
 [![Last Verified](https://img.shields.io/badge/Last%20Verified-2026--09--02-orange.svg)](#-平台与模型详细档案)
 [![OpenAI Compatible](https://img.shields.io/badge/OpenAI-Compatible%20100%25-green.svg)](docs/openai-compatible.md)
 
-[🌟 推荐](#-推荐) · [🚀 场景速选](#-不知道选哪个) · [🔑 快速入口](#-中国免费-api-快速入口) · [⚡ OpenAI 兼容调用](#-openai-compatible) · [💻 AI 编程配置](#-ai-coding-编程工具配置) · [📊 完整清单](#-平台与模型详细档案)
+[🔥 限时免费](#-当前限时免费) · [🌟 推荐](#-推荐) · [🚀 场景速选](#-不知道选哪个) · [🔑 快速入口](#-中国免费-api-快速入口) · [⚡ OpenAI 兼容调用](#-openai-compatible) · [💻 AI 编程配置](#-ai-coding-编程工具配置) · [📊 完整清单](#-平台与模型详细档案)
 
 </div>
 
@@ -28,6 +28,26 @@
 - 🟠 **新用户免费**：新注册或首次实名认证赠送一次性体验代金券/Token 额度包。
 - 🔴 **已停止**：此前提供过免费 API，当前已下线或转为全付费。
 - ⚪ **待确认**：官方政策处于过渡期或暂无法从官方渠道明确确认。
+
+---
+
+## ⚠️ 限时免费说明
+
+> 本项目特别收录部分限时免费活动。  
+> “限时免费”不代表永久免费，活动可能提前结束、调整额度或改变使用条件。  
+> 本项目维护者会尽量根据实际测试更新状态，但最终以官方页面及实际使用情况为准。
+
+---
+
+## 🔥 当前限时免费
+
+> 经过实测确认可用的限时高额度福利，活动可能随时变动，建议尽快领取使用：
+
+| 平台 / 厂商 | 重点模型 | 免费额度 / 说明 | 状态 | 官方入口 | 特别说明 |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| **商汤日日新 (SenseNova)** | GLM / K3 | **约 60 万积分** 免费额度 | 🟢 免费额度 | [官方网站 →](https://sensenova.cn/models) | 当前平台提供约 60 万积分免费额度，可使用 GLM、K3 等模型；免费政策可能调整，请以官方页面为准。 |
+| **AMD 开发者** | DeepSeek V4 Flash | **当前免费** | 🔥 限时 | [官方网站 →](https://developer.amd.com.cn) | ⚠️ 限时免费：当前可免费使用 DeepSeek V4 Flash，活动可能随时结束，建议尽快领取。 |
+| **华为云 CodeArts / 码道** | GLM5.3Flash | 每天 **1000 万 Tokens** | 🔥 限时 | [官方活动 →](https://activity.huaweicloud.com/codearts_agent.html) | ⚡ 限时活动：每人每天免费赠送 1000 万 Tokens，可使用 GLM5.3Flash。活动规则可能调整，请以华为云官方页面为准。 |
 
 ---
 
@@ -51,13 +71,14 @@
 
 | 业务场景 | 首选推荐 | 备选推荐 | 选型依据与优势 |
 | :--- | :--- | :--- | :--- |
-| **💻 Coding / 代码补全与生成** | **魔搭** `Qwen/Qwen2.5-Coder-32B-Instruct` | **硅基流动** `Qwen/Qwen2.5-7B-Instruct` | Qwen2.5-Coder 是当前开源界最顶尖的编程模型之一；魔搭每日 2000 次免费调用，极速生成。 |
+| **🔥 当前最值得领取 (限时福利)** | **AMD 开发者** `DeepSeek V4 Flash`<br>**华为云 码道** `GLM5.3Flash` | **商汤日日新** `GLM / K3` | 华为云每天送 1000 万 Tokens、AMD 限时免费体验、商汤送约 60 万积分，限时高额福利建议尽快领取。 |
+| **💻 Coding / 代码编程与补全** | **魔搭** `Qwen/Qwen2.5-Coder-32B-Instruct` | **AMD** `DeepSeek V4 Flash`<br>**华为云** `GLM5.3Flash` | Qwen2.5-Coder 专攻编程代码；AMD 与华为云提供最新高规格限时免费模型，代码生成极强。 |
 | **⚡ Claude Code (替代后端)** | **智谱 AI** `glm-4-flash` | **魔搭** `deepseek-ai/DeepSeek-V3` | 原生中文高吞吐，支持标准 Function Call / Tool Calling 与长上下文，且永久免费。 |
 | **🎯 Cursor / AI 编辑器** | **魔搭** `Qwen/Qwen2.5-Coder-32B-Instruct` | **硅基流动** `DeepSeek-R1-Distill-Qwen-7B` | 极简 OpenAI Compatible 地址配置，低延迟直连，不耗个人梯子流量。 |
 | **⌨️ Codex CLI 终端助手** | **硅基流动** `Qwen/Qwen2.5-7B-Instruct` | **魔搭** `Qwen/Qwen2.5-72B-Instruct` | 毫秒级返回，终端执行命令与脚本编写体验丝滑。 |
 | **🧠 Reasoning / 深度推理与算法** | **魔搭** `deepseek-ai/DeepSeek-R1` | **DeepSeek 官方** `deepseek-reasoner` | 具备顶尖思考链 (Chain of Thought) 推理能力，数学、算法与疑难 Debug 首选。 |
 | **📜 长文本阅读与研报解析** | **百度千帆** `ernie-speed-128k` | **智谱 AI** `glm-4-flash` (128K) | 官方永久免费，128K 上下文支持整本小说、几十万字论文与财报全量抽取。 |
-| **✍️ 中文写作、公文与策划** | **讯飞星火** `spark-lite` | **智谱 AI** `glm-4-flash` | 中文语感细腻，公文策划格式合规，低延迟永久免费。 |
+| **✍️ 中文写作、公文与通用** | **讯飞星火** `spark-lite`<br>**智谱 AI** `glm-4-flash` | **商汤日日新** `GLM / K3` | 讯飞与智谱中文语义理解精准且永久免费；商汤提供 60 万积分额度，通用中文问答极佳。 |
 | **👁️ Vision / 图像理解与 OCR** | **魔搭** `Qwen/Qwen2.5-VL-72B-Instruct` | **火山引擎** `doubao-vision` (送额度) | 支持图表解析、界面截图转代码、复杂多模态 OCR 与视觉定位。 |
 
 ---
@@ -151,6 +172,9 @@ print(response.choices[0].message.content)
 | **火山引擎** | Doubao-Lite-32k | `doubao-lite-32k` | 🟡 有免费额度 | 开通接入点赠送 500 万 Tokens | 32K | 文本 | 是 | 是 | 无需充值 |
 | **Moonshot** | Moonshot-v1-8k | `moonshot-v1-8k` | 🟠 新用户免费 | 注册赠送 15 元额度包 | 8K | 文本 | 否 | 是 | 无需充值 |
 | **MiniMax** | MiniMax-Text-01 | `MiniMax-Text-01` | 🟠 新用户免费 | 注册赠送 15 元额度，支持百万上下文 | 1M | 文本/代码 | 否 | 是 | 无需充值 |
+| **商汤日日新** | GLM / K3 | `GLM / K3 (平台内)` | 🟡 有免费额度 | 约 60 万积分免费额度 (可使用 GLM、K3 等) | 平台内 | 文本/通用 | 否 | 是 | 无需充值 |
+| **AMD 开发者** | DeepSeek V4 Flash | `DeepSeek V4 Flash` | 🔥 限时免费 | 当前完全免费使用 (限时福利，随时可能结束) | 平台内/待确认 | 文本/代码 | 否 | 是 | 无需充值 |
+| **华为云 码道** | GLM5.3Flash | `GLM5.3Flash` | 🔥 限时免费 | 每人每天免费赠送 1000 万 Tokens | 平台内/待确认 | 文本/代码 | 是 | 是 | 无需充值 |
 
 ---
 
