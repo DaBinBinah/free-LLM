@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "last_updated": "2026-09-03",
   "models": [
     {
@@ -551,6 +551,28 @@
       "recharge": false,
       "last_verified": "2026-09-03",
       "note": "🔥 9月3日~9月20日限时福利：每天太平洋时间 08:00~18:00（北京时间 23:00~次日 09:00），在官方 ZCode 中无限制免费使用；其他代理客户端享受 2x Flash 配额"
+    },
+    {
+      "provider_id": "chinamobile-ecloud",
+      "provider_name": "中国移动 (移动云 MaaS 墨玛)",
+      "model_name": "DeepSeek-V4-Flash-0731",
+      "model_id": "DeepSeek-V4-Flash-0731",
+      "status": "free_tier",
+      "status_label": "🟡 有免费额度",
+      "quota_desc": "新开通/体验免费赠送 2500 万 Tokens 资源包",
+      "context_window": "64K / 128K",
+      "modalities": ["text", "code"],
+      "rpm": "平台默认并发",
+      "rpd": "2500 万 Tokens 额度包",
+      "openai_compatible": true,
+      "base_url": "待控制台开通获取",
+      "key_url": "https://ecloud.10086.cn/api/page/maas/moma/modelSquare",
+      "doc_url": "https://ecloud.10086.cn/api/page/maas/moma/modelSquare",
+      "real_name": true,
+      "phone": true,
+      "recharge": false,
+      "last_verified": "2026-09-03",
+      "note": "中国移动云大模型广场上线，开通赠送 2500 万 Tokens，支持 DeepSeek 最新 V4-Flash 超低延时旗舰模型"
     }
   ]
 }

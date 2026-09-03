@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "last_updated": "2026-09-03",
   "providers": [
     {
@@ -321,6 +321,26 @@
       },
       "last_verified": "2026-09-03",
       "note": "智谱旗下针对编程 Agent 的 ADE 官方桌面环境及编码计划，支持原生多模态与高并发 Tool-use"
+    },
+    {
+      "id": "chinamobile-ecloud",
+      "name": "中国移动 (移动云 MaaS 墨玛)",
+      "company": "中国移动",
+      "website": "https://ecloud.10086.cn",
+      "console_url": "https://ecloud.10086.cn/api/page/maas/moma/modelSquare",
+      "api_doc_url": "https://ecloud.10086.cn/api/page/maas/moma/modelSquare",
+      "base_url": "待控制台开通获取",
+      "openai_compatible": true,
+      "free_tier_type": "free_quota_trial",
+      "free_tier_desc": "新开通/体验免费赠送 2500 万 Tokens 大模型额度包（用于体验 DeepSeek-V4-Flash-0731 等前沿模型）",
+      "auth_requirements": {
+        "phone_required": true,
+        "real_name_required": true,
+        "credit_card_required": false,
+        "recharge_required": false
+      },
+      "last_verified": "2026-09-03",
+      "note": "中国移动旗下算网智算平台，全面上架 DeepSeek V4 系列，赠送 2500 万 Tokens 资源包"
     }
   ]
 }
