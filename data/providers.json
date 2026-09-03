@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "last_updated": "2026-09-02",
+  "version": "1.1.1",
+  "last_updated": "2026-09-03",
   "providers": [
     {
       "id": "modelscope",
@@ -301,6 +301,26 @@
       },
       "last_verified": "2026-09-02",
       "note": "🔥 限时福利：CodeArts / 码道每人每天免费 1000 万 Tokens"
+    },
+    {
+      "id": "z_ai",
+      "name": "Z.ai / ZCode (智谱 GLM 编码计划)",
+      "company": "智谱 AI (Z.ai)",
+      "website": "https://z.ai",
+      "console_url": "https://z.ai",
+      "api_doc_url": "https://z.ai/docs",
+      "base_url": "https://api.z.ai/v1",
+      "openai_compatible": true,
+      "free_tier_type": "limited_time_free",
+      "free_tier_desc": "🔥 限时福利（9月3日~9月20日）：每天太平洋时间 08:00~18:00（北京时间 23:00~次日 09:00），在官方 ZCode ADE 客户端中完全无限制免费使用 GLM-5.3-Flash；在其他支持的编程代理中享受 2x Flash 配额。",
+      "auth_requirements": {
+        "phone_required": false,
+        "real_name_required": false,
+        "credit_card_required": false,
+        "recharge_required": false
+      },
+      "last_verified": "2026-09-03",
+      "note": "智谱旗下针对编程 Agent 的 ADE 官方桌面环境及编码计划，支持原生多模态与高并发 Tool-use"
     }
   ]
 }

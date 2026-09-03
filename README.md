@@ -7,8 +7,9 @@
 > 拒绝海外套壳，拒绝把“开源模型”硬当“免费 API”，一手官方真实数据，开箱即用。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Version: 1.1.1](https://img.shields.io/badge/Version-1.1.1-green.svg)](CHANGELOG.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Verified](https://img.shields.io/badge/Last%20Verified-2026--09--02-orange.svg)](#-平台与模型详细档案)
+[![Last Verified](https://img.shields.io/badge/Last%20Verified-2026--09--03-orange.svg)](#-平台与模型详细档案)
 [![OpenAI Compatible](https://img.shields.io/badge/OpenAI-Compatible%20100%25-green.svg)](docs/openai-compatible.md)
 
 [🔥 限时免费](#-当前限时免费) · [🌟 推荐](#-推荐) · [🚀 场景速选](#-不知道选哪个) · [🔑 快速入口](#-中国免费-api-快速入口) · [⚡ OpenAI 兼容调用](#-openai-compatible) · [💻 AI 编程配置](#-ai-coding-编程工具配置) · [📊 完整清单](#-平台与模型详细档案)
@@ -45,6 +46,7 @@
 
 | 平台 / 厂商 | 重点模型 | 免费额度 / 说明 | 状态 | 官方入口 | 特别说明 |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Z.ai / ZCode<br>(智谱 GLM 编码计划)** | GLM-5.3-Flash | **限时时段完全无限制**<br>第三方代理 **2x 配额** | 🔥 限时 | [官方网站 →](https://z.ai) | ⚡ **重磅福利（9月3日~9月20日）**：每天太平洋时间 08:00~18:00（**北京时间 23:00~次日 09:00**），在官方 ZCode ADE 桌面端内**无限制免费使用 GLM-5.3-Flash**；在其他支持的编程代理（Cursor、Claude Code、Cline 等）中享受 **2x Flash 配额**！ |
 | **商汤日日新 (SenseNova)** | GLM / K3 | **约 60 万积分** 免费额度 | 🟢 免费额度 | [官方网站 →](https://sensenova.cn/models) | 当前平台提供约 60 万积分免费额度，可使用 GLM、K3 等模型；免费政策可能调整，请以官方页面为准。 |
 | **AMD 开发者** | DeepSeek V4 Flash | **当前免费** | 🔥 限时 | [官方网站 →](https://developer.amd.com.cn) | ⚠️ 限时免费：当前可免费使用 DeepSeek V4 Flash，活动可能随时结束，建议尽快领取。 |
 | **华为云 CodeArts / 码道** | GLM5.3Flash | 每天 **1000 万 Tokens** | 🔥 限时 | [官方活动 →](https://activity.huaweicloud.com/codearts_agent.html) | ⚡ 限时活动：每人每天免费赠送 1000 万 Tokens，可使用 GLM5.3Flash。活动规则可能调整，请以华为云官方页面为准。 |
@@ -71,8 +73,8 @@
 
 | 业务场景 | 首选推荐 | 备选推荐 | 选型依据与优势 |
 | :--- | :--- | :--- | :--- |
-| **🔥 当前最值得领取 (限时福利)** | **AMD 开发者** `DeepSeek V4 Flash`<br>**华为云 码道** `GLM5.3Flash` | **商汤日日新** `GLM / K3` | 华为云每天送 1000 万 Tokens、AMD 限时免费体验、商汤送约 60 万积分，限时高额福利建议尽快领取。 |
-| **💻 Coding / 代码编程与补全** | **魔搭** `Qwen/Qwen2.5-Coder-32B-Instruct` | **AMD** `DeepSeek V4 Flash`<br>**华为云** `GLM5.3Flash` | Qwen2.5-Coder 专攻编程代码；AMD 与华为云提供最新高规格限时免费模型，代码生成极强。 |
+| **🔥 当前最值得领取 (限时福利)** | **Z.ai / ZCode** `GLM-5.3-Flash`<br>**华为云 码道** `GLM5.3Flash` | **AMD 开发者** `DeepSeek V4 Flash`<br>**商汤日日新** `GLM / K3` | ZCode 限时指定时段无限制免费刷 GLM-5.3-Flash；华为云每天送 1000 万 Tokens；AMD 限时免费体验，福利空前。 |
+| **💻 Coding / 代码编程与补全** | **魔搭** `Qwen2.5-Coder-32B-Instruct`<br>**ZCode** `GLM-5.3-Flash` | **AMD** `DeepSeek V4 Flash`<br>**华为云** `GLM5.3Flash` | Qwen2.5-Coder 专攻编程；ZCode 在活动期间完全无限制免费调用最新 GLM-5.3-Flash 原生 Agent 编程模型。 |
 | **⚡ Claude Code (替代后端)** | **智谱 AI** `glm-4-flash` | **魔搭** `deepseek-ai/DeepSeek-V3` | 原生中文高吞吐，支持标准 Function Call / Tool Calling 与长上下文，且永久免费。 |
 | **🎯 Cursor / AI 编辑器** | **魔搭** `Qwen/Qwen2.5-Coder-32B-Instruct` | **硅基流动** `DeepSeek-R1-Distill-Qwen-7B` | 极简 OpenAI Compatible 地址配置，低延迟直连，不耗个人梯子流量。 |
 | **⌨️ Codex CLI 终端助手** | **硅基流动** `Qwen/Qwen2.5-7B-Instruct` | **魔搭** `Qwen/Qwen2.5-72B-Instruct` | 毫秒级返回，终端执行命令与脚本编写体验丝滑。 |
@@ -101,6 +103,7 @@
 | **MiniMax** | 🟠 新用户免费 | [创建 MiniMax Key →](https://platform.minimaxi.com/user-center/basic-information/interface-key) | `https://api.minimax.chat/v1` | 注册送 15 元额度，支持百万上下文 |
 | **无问芯穹** | 🟢 长期免费 | [获取 Infini Key →](https://cloud.infini-ai.com/api-key) | `https://cloud.infini-ai.com/maas/v1` | 每日赠送/免费调用 DeepSeek & Qwen |
 | **零一万物** | 🟠 新用户免费 | [获取 01 Key →](https://platform.lingyiwanwu.com/apikeys) | `https://api.lingyiwanwu.com/v1` | 注册赠送测试额度 (Yi-Lightning) |
+| **Z.ai (智谱 GLM 计划)** | 🔥 限时免费 | [获取 Z.ai 权限 →](https://z.ai) | `https://api.z.ai/v1` | 9.3~9.20 每天 23:00~09:00 在 ZCode 客户端完全无限制，第三方代理 2x 配额 |
 
 ---
 
@@ -136,6 +139,7 @@ print(response.choices[0].message.content)
 
 中国免费 API 可直接无缝接入常用 AI 编程软件：
 
+- **ZCode (智谱 Z.ai ADE)**：官方为 GLM 打造的桌面智能体编程开发环境，限时活动时段直连享受无限制 GLM-5.3-Flash。
 - **Cursor**：`Settings` → `Models` → 勾选自定义 API Key，设置 Base URL（如 `https://api-inference.modelscope.cn/v1`）并添加模型 `Qwen/Qwen2.5-Coder-32B-Instruct`。
 - **Claude Code**：配置本地中转代理（如 LiteLLM）或指定国内兼容端点，零门槛驱动 Agent 自动化编程。
 - **Codex CLI**：`export OPENAI_BASE_URL="https://api.siliconflow.cn/v1"` 与 `export OPENAI_API_KEY="xxx"`，直接运行 `codex --model ...`。
@@ -148,7 +152,7 @@ print(response.choices[0].message.content)
 
 ## 📊 平台与模型详细档案
 
-> 最后全量校验时间：**2026-09-02**
+> 最后全量校验时间：**2026-09-03**
 
 | 厂商 / 平台 | 模型名称 | 真实 Model ID | 免费状态 | 免费额度 / 规则 | 上下文 | 模态 | 实名认证 | 手机注册 | 充值门槛 |
 | :--- | :--- | :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -175,6 +179,7 @@ print(response.choices[0].message.content)
 | **商汤日日新** | GLM / K3 | `GLM / K3 (平台内)` | 🟡 有免费额度 | 约 60 万积分免费额度 (可使用 GLM、K3 等) | 平台内 | 文本/通用 | 否 | 是 | 无需充值 |
 | **AMD 开发者** | DeepSeek V4 Flash | `DeepSeek V4 Flash` | 🔥 限时免费 | 当前完全免费使用 (限时福利，随时可能结束) | 平台内/待确认 | 文本/代码 | 否 | 是 | 无需充值 |
 | **华为云 码道** | GLM5.3Flash | `GLM5.3Flash` | 🔥 限时免费 | 每人每天免费赠送 1000 万 Tokens | 平台内/待确认 | 文本/代码 | 是 | 是 | 无需充值 |
+| **Z.ai / ZCode** | GLM-5.3-Flash | `glm-5.3-flash` | 🔥 限时免费 | 9.3~9.20 每天北京时间 23:00~09:00 在 ZCode 客户端内完全无限制免费；其他代理 2x 配额 | 128K | 文本/代码/视觉 | 否 | 否 | 无需充值 |
 
 ---
 

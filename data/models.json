@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "last_updated": "2026-09-02",
+  "version": "1.1.1",
+  "last_updated": "2026-09-03",
   "models": [
     {
       "provider_id": "modelscope",
@@ -529,6 +529,28 @@
       "recharge": false,
       "last_verified": "2026-09-02",
       "note": "⚡ 限时活动：每人每天免费赠送 1000 万 Tokens，可使用 GLM5.3Flash。活动规则可能调整，请以华为云官方页面为准"
+    },
+    {
+      "provider_id": "z_ai",
+      "provider_name": "Z.ai / ZCode (智谱 GLM 编码计划)",
+      "model_name": "GLM-5.3-Flash",
+      "model_id": "glm-5.3-flash",
+      "status": "limited_time_free",
+      "status_label": "🔥 限时免费",
+      "quota_desc": "限时指定时段内无限制使用 (ZCode 客户端内) + 其他代理 2x Flash 配额",
+      "context_window": "128K",
+      "modalities": ["text", "code", "vision"],
+      "rpm": "无限制 (活动时段)",
+      "rpd": "无限制 (活动时段)",
+      "openai_compatible": true,
+      "base_url": "https://api.z.ai/v1",
+      "key_url": "https://z.ai",
+      "doc_url": "https://z.ai/docs",
+      "real_name": false,
+      "phone": false,
+      "recharge": false,
+      "last_verified": "2026-09-03",
+      "note": "🔥 9月3日~9月20日限时福利：每天太平洋时间 08:00~18:00（北京时间 23:00~次日 09:00），在官方 ZCode 中无限制免费使用；其他代理客户端享受 2x Flash 配额"
     }
   ]
 }
