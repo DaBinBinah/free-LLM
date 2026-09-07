@@ -47,7 +47,7 @@
 | 平台 / 厂商 | 重点模型 | 免费额度 / 说明 | 状态 | 官方入口 | 特别说明 |
 | :--- | :--- | :--- | :---: | :---: | :--- |
 | **Z.ai / ZCode<br>(智谱 GLM 编码计划)** | GLM-5.3-Flash | **限时时段完全无限制**<br>第三方代理 **2x 配额** | 🔥 限时 | <a href="https://z.ai" target="_blank" rel="noopener noreferrer">官方网站 →</a> | ⚡ **重磅福利（9月3日~9月20日）**：每天太平洋时间 08:00~18:00（**北京时间 23:00~次日 09:00**），在官方 ZCode ADE 桌面端内**无限制免费使用 GLM-5.3-Flash**；在其他支持的编程代理（Cursor、Claude Code、Cline 等）中享受 **2x Flash 配额**！ |
-| **商汤日日新 / 智子星 (SenseNova)** | GLM / K3 | **约 60 万积分** 免费额度 | 🟢 免费额度 | <a href="https://www.sensenova.cn/" target="_blank" rel="noopener noreferrer">官方网站 →</a> | 当前平台提供约 60 万积分免费额度，可使用 GLM、K3 等模型；免费政策可能调整，请以官方页面为准。 |
+| **商汤日日新 / 智子星 (SenseNova)** | GLM / K3 | **约 60 万积分** 免费额度 | 🟢 免费额度 | <a href="https://platform.sensenova.cn/" target="_blank" rel="noopener noreferrer">官方平台 →</a> | 当前平台提供约 60 万积分免费额度，可使用 GLM、K3 等模型；免费政策可能调整，请以官方页面为准。 |
 | **AMD 开发者** | DeepSeek V4 Flash | **当前免费** | 🔥 限时 | <a href="https://developer.amd.com.cn" target="_blank" rel="noopener noreferrer">官方网站 →</a> | ⚠️ 限时免费：当前可免费使用 DeepSeek V4 Flash，活动可能随时结束，建议尽快领取。 |
 | **华为云 CodeArts / 码道** | GLM5.3Flash | 每天 **1000 万 Tokens** | 🔥 限时 | <a href="https://activity.huaweicloud.com/codearts_agent.html" target="_blank" rel="noopener noreferrer">官方活动 →</a> | ⚡ 限时活动：每人每天免费赠送 1000 万 Tokens，可使用 GLM5.3Flash。活动规则可能调整，请以华为云官方页面为准。 |
 

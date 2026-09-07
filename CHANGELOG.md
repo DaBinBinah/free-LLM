@@ -8,8 +8,9 @@
 
 ### 🔧 修复与优化 (Fixed & Changed)
 - **修正商汤日日新 / 智子星 (SenseNova) 官方入口**：
-  - 将限时免费专区及结构化数据中商汤科技的官方链接全面修正为官方主页：`https://www.sensenova.cn/`。
-  - 同步更新 `data/providers.json` 与 `data/models.json` 中商汤日日新的官方网站及相关入口。
+  - 将限时免费专区及结构化数据中商汤科技的官方入口更新为官方直达的大模型服务平台地址：`https://platform.sensenova.cn/`。
+  - 彻底解决旧域名 SSL 自签名证书错误与部分网络环境下无法访问的问题，直达 Token Plan 免费公测控制台。
+  - 同步更新 `data/providers.json` 与 `data/models.json` 中商汤日日新的控制台与文档地址。
 - **外部链接全面支持新页面打开**：
   - 将主文档 `README.md` 及相关配置手册中所有外部官网、API Key 申请和控制台跳转链接统一重构为 `<a href="..." target="_blank" rel="noopener noreferrer">` 格式。
   - 点击外部链接时均在新标签页中打开，大幅提升开发者在 GitHub 浏览时的导航体验，避免离开当前仓库。
