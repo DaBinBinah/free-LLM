@@ -1,6 +1,6 @@
 {
-  "version": "1.1.2",
-  "last_updated": "2026-09-03",
+  "version": "1.1.3",
+  "last_updated": "2026-09-07",
   "providers": [
     {
       "id": "modelscope",
@@ -246,9 +246,9 @@
       "id": "sensenova",
       "name": "商汤日日新 (SenseNova)",
       "company": "商汤科技",
-      "website": "https://sensenova.cn/models",
-      "console_url": "https://sensenova.cn/models",
-      "api_doc_url": "https://sensenova.cn/models",
+      "website": "https://www.sensenova.cn/",
+      "console_url": "https://www.sensenova.cn/",
+      "api_doc_url": "https://www.sensenova.cn/",
       "base_url": "待确认",
       "openai_compatible": false,
       "free_tier_type": "free_points",
@@ -259,7 +259,7 @@
         "credit_card_required": false,
         "recharge_required": false
       },
-      "last_verified": "2026-09-02",
+      "last_verified": "2026-09-07",
       "note": "中国官方平台，提供 GLM、K3 等模型免费额度体验"
     },
     {

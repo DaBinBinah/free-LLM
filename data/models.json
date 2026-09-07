@@ -1,6 +1,6 @@
 {
-  "version": "1.1.2",
-  "last_updated": "2026-09-03",
+  "version": "1.1.3",
+  "last_updated": "2026-09-07",
   "models": [
     {
       "provider_id": "modelscope",
@@ -478,12 +478,12 @@
       "rpd": "待确认",
       "openai_compatible": false,
       "base_url": "待确认",
-      "key_url": "https://sensenova.cn/models",
-      "doc_url": "https://sensenova.cn/models",
+      "key_url": "https://www.sensenova.cn/",
+      "doc_url": "https://www.sensenova.cn/",
       "real_name": false,
       "phone": true,
       "recharge": false,
-      "last_verified": "2026-09-02",
+      "last_verified": "2026-09-07",
       "note": "当前平台提供约 60 万积分免费额度，可使用 GLM、K3 等模型；免费政策可能调整，请以官方页面为准"
     },
     {

@@ -154,7 +154,7 @@ ZCode 是智谱 Z.ai 官方推出的 **Agentic Development Environment (ADE)** �
 
 ### 接入与使用指南：
 1. **下载与安装 ZCode**：
-   - 访问 [Z.ai 官网](https://z.ai) 下载对应操作系统的 ZCode 客户端。
+   - 访问 <a href="https://z.ai" target="_blank" rel="noopener noreferrer">Z.ai 官网</a> 下载对应操作系统的 ZCode 客户端。
 2. **账号登录与激活计划**：
    - 启动 ZCode，登录并进入“GLM 编码计划 (GLM Coding Plan)”专区。
 3. **在 ZCode 中选择模型**：
