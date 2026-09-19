@@ -7,9 +7,9 @@
 > 拒绝海外套壳，拒绝把“开源模型”硬当“免费 API”，一手官方真实数据，开箱即用。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version: 1.1.3](https://img.shields.io/badge/Version-1.1.3-green.svg)](CHANGELOG.md)
+[![Version: 1.1.4](https://img.shields.io/badge/Version-1.1.4-green.svg)](CHANGELOG.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Verified](https://img.shields.io/badge/Last%20Verified-2026--09--07-orange.svg)](#-平台与模型详细档案)
+[![Last Verified](https://img.shields.io/badge/Last%20Verified-2026--09--19-orange.svg)](#-平台与模型详细档案)
 [![OpenAI Compatible](https://img.shields.io/badge/OpenAI-Compatible%20100%25-green.svg)](docs/openai-compatible.md)
 
 [🔥 限时免费](#-当前限时免费) · [🌟 推荐](#-推荐) · [🚀 场景速选](#-不知道选哪个) · [🔑 快速入口](#-中国免费-api-快速入口) · [⚡ OpenAI 兼容调用](#-openai-compatible) · [💻 AI 编程配置](#-ai-coding-编程工具配置) · [📊 完整清单](#-平台与模型详细档案)
@@ -44,12 +44,33 @@
 
 > 经过实测确认可用的限时高额度福利，活动可能随时变动，建议尽快领取使用：
 
+### 🌐 平台与云端 API 限时免费
+
 | 平台 / 厂商 | 重点模型 | 免费额度 / 说明 | 状态 | 官方入口 | 特别说明 |
 | :--- | :--- | :--- | :---: | :---: | :--- |
 | **Z.ai / ZCode<br>(智谱 GLM 编码计划)** | GLM-5.3-Flash | **限时时段完全无限制**<br>第三方代理 **2x 配额** | 🔥 限时 | <a href="https://z.ai" target="_blank" rel="noopener noreferrer">官方网站 →</a> | ⚡ **重磅福利（9月3日~9月20日）**：每天太平洋时间 08:00~18:00（**北京时间 23:00~次日 09:00**），在官方 ZCode ADE 桌面端内**无限制免费使用 GLM-5.3-Flash**；在其他支持的编程代理（Cursor、Claude Code、Cline 等）中享受 **2x Flash 配额**！ |
 | **商汤日日新 / 智子星 (SenseNova)** | GLM / K3 | **约 60 万积分** 免费额度 | 🟢 免费额度 | <a href="https://platform.sensenova.cn/" target="_blank" rel="noopener noreferrer">官方平台 →</a> | 当前平台提供约 60 万积分免费额度，可使用 GLM、K3 等模型；免费政策可能调整，请以官方页面为准。 |
 | **AMD 开发者** | DeepSeek V4 Flash | **当前免费** | 🔥 限时 | <a href="https://developer.amd.com.cn" target="_blank" rel="noopener noreferrer">官方网站 →</a> | ⚠️ 限时免费：当前可免费使用 DeepSeek V4 Flash，活动可能随时结束，建议尽快领取。 |
 | **华为云 CodeArts / 码道** | GLM5.3Flash | 每天 **1000 万 Tokens** | 🔥 限时 | <a href="https://activity.huaweicloud.com/codearts_agent.html" target="_blank" rel="noopener noreferrer">官方活动 →</a> | ⚡ 限时活动：每人每天免费赠送 1000 万 Tokens，可使用 GLM5.3Flash。活动规则可能调整，请以华为云官方页面为准。 |
+
+### 🤖 AI 编程 / Agent 客户端限时免费专区
+
+> 精选目前**内置并免费开放热门大模型**的 5 款主流 AI Coding / Agent 客户端，免去自行配置 API Key 或中转的繁琐流程，开箱即用：
+
+| 客户端 / 工具 | 重点免费模型 | 免费说明 | 状态 / 活动时间 | 官方直达入口 | 实测特性与说明 |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| **千问 Qoder** | `Qwen3.8-Flash-Next` | **限时免费开放** | 🔥 限时<br>(09.18 ~ 09.30) | <a href="https://qoder.com/" target="_blank" rel="noopener noreferrer">Qoder 官网 →</a> | 面向 AI Coding / Agent 场景的开发工具，支持桌面端、IDE 与 CLI 等多种使用方式。 |
+| **Cline** | `DeepSeek-V4.1-Flash`<br>`GLM-5.3-Flash`<br>`Muse Spark 1.3` | **免绑卡注册即用** | 🟢 免费体验 | <a href="https://cline.bot/" target="_blank" rel="noopener noreferrer">Cline 官网 →</a> | 零门槛，只需安装扩展并注册账号即可直接调用，完全不需要绑定银行卡。 |
+| **WorkBuddy 国际版** | `DeepSeek-V4.1-Flash`<br>`Hy4 Preview` | **限时免费开放** | 🔥 限时<br>(09.11 ~ 09.25) | <a href="https://www.workbuddy.ai/" target="_blank" rel="noopener noreferrer">WorkBuddy 国际版 →</a> | 腾讯全场景 AI Agent 办公/编程工作台，支持复杂任务自主拆解与工具链执行。 |
+| **WorkBuddy 国内版** | `Hy4 Preview` | **限时免费开放** | 🔥 限时<br>(08.28 ~ 09.30) | <a href="https://www.workbuddy.cn/" target="_blank" rel="noopener noreferrer">WorkBuddy 国内版 →</a> | ⚠️ **注意**：目前国内版排队时间相对较长，实际使用可能需要耐心等待。 |
+| **OpenCode** | `Ling 3.0 Flash Fin Free` | **免绑卡直接使用** | 🟢 长期免费 | <a href="https://opencode.ai/" target="_blank" rel="noopener noreferrer">OpenCode 官网 →</a> | 开源 AI Coding Agent，支持终端、桌面端与 IDE 扩展，无需绑卡开箱即用。 |
+
+> [!IMPORTANT]
+> **客户端免费福利使用提醒**：
+> 1. **活动截止时间**：Qoder（至 9月30日）、WorkBuddy 国际版（至 9月25日）、WorkBuddy 国内版（至 9月30日）有明确活动期限，建议尽早体验；
+> 2. **免绑卡极简门槛**：Cline 与 OpenCode 注册即可使用，无需绑定信用卡；
+> 3. **国内版排队提示**：WorkBuddy 国内版受资源并发影响，高峰期可能出现较长等待；
+> 4. **动态调整提示**：免费模型及活动规则由各平台官方最终解释并可能随时动态调整，请以客户端内展示为准。
 
 ---
 

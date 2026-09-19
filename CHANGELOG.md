@@ -2,6 +2,19 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 规范，版本格式采用 [Semantic Versioning](https://semver.org/lang/zh-CN/)。
 
+## [1.1.4] - 2026-09-19
+
+### 🚀 新增 (Added)
+- **🔥 限时免费专区：收录 5 大 AI 编程 / Agent 客户端内置免费模型**：
+  - **千问 Qoder**：限时免费开放 `Qwen3.8-Flash-Next`（活动时间：09.18 ~ 09.30），支持桌面端、IDE 与 CLI，官方直达：`https://qoder.com/`。
+  - **Cline**：无需绑卡注册即用，免费体验 `DeepSeek-V4.1-Flash`、`GLM-5.3-Flash` 与 `Muse Spark 1.3`，官方直达：`https://cline.bot/`。
+  - **WorkBuddy 国际版**：限时免费开放 `DeepSeek-V4.1-Flash` 与 `Hy4 Preview`（活动时间：09.11 ~ 09.25），腾讯全场景 Agent 工作台，官方直达：`https://www.workbuddy.ai/`。
+  - **WorkBuddy 国内版**：限时免费开放 `Hy4 Preview`（活动时间：08.28 ~ 09.30），高峰期排队提示，官方直达：`https://www.workbuddy.cn/`。
+  - **OpenCode**：开源 AI Coding Agent，无需绑卡长期免费使用 `Ling 3.0 Flash Fin Free`，官方直达：`https://opencode.ai/`。
+- **优化限时免费专区版面结构**：
+  - 在 `README.md` 的“🔥 当前限时免费”章节中划分出“平台与云端 API 限时免费”和“AI 编程 / Agent 客户端限时免费专区”两大子版块，结构更直观清晰。
+  - 增加客户端免费使用的核心注意事项（活动截止期、免绑卡门槛、国内排队与动态调整提醒）。
+
 ---
 
 ## [1.1.3] - 2026-09-07
