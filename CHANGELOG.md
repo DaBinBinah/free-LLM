@@ -1,16 +1,16 @@
 # 变更日志 (Changelog)
 
-本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 规范，版本格式采用 [Semantic Versioning](https://semver.org/lang/zh-CN/)。
+本项目遵循 <a href="https://keepachangelog.com/zh-CN/1.0.0/" target="_blank" rel="noopener noreferrer">Keep a Changelog</a> 规范，版本格式采用 <a href="https://semver.org/lang/zh-CN/" target="_blank" rel="noopener noreferrer">Semantic Versioning</a>。
 
 ## [1.1.4] - 2026-09-19
 
 ### 🚀 新增 (Added)
 - **🔥 限时免费专区：收录 5 大 AI 编程 / Agent 客户端内置免费模型**：
-  - **千问 Qoder**：限时免费开放 `Qwen3.8-Flash-Next`（活动时间：09.18 ~ 09.30），支持桌面端、IDE 与 CLI，官方直达：`https://qoder.com/`。
-  - **Cline**：无需绑卡注册即用，免费体验 `DeepSeek-V4.1-Flash`、`GLM-5.3-Flash` 与 `Muse Spark 1.3`，官方直达：`https://cline.bot/`。
-  - **WorkBuddy 国际版**：限时免费开放 `DeepSeek-V4.1-Flash` 与 `Hy4 Preview`（活动时间：09.11 ~ 09.25），腾讯全场景 Agent 工作台，官方直达：`https://www.workbuddy.ai/`。
-  - **WorkBuddy 国内版**：限时免费开放 `Hy4 Preview`（活动时间：08.28 ~ 09.30），高峰期排队提示，官方直达：`https://www.workbuddy.cn/`。
-  - **OpenCode**：开源 AI Coding Agent，无需绑卡长期免费使用 `Ling 3.0 Flash Fin Free`，官方直达：`https://opencode.ai/`。
+  - **千问 Qoder**：限时免费开放 `Qwen3.8-Flash-Next`（活动时间：09.18 ~ 09.30），支持桌面端、IDE 与 CLI，官方直达：<a href="https://qoder.com/" target="_blank" rel="noopener noreferrer">https://qoder.com/</a>。
+  - **Cline**：无需绑卡注册即用，免费体验 `DeepSeek-V4.1-Flash`、`GLM-5.3-Flash` 与 `Muse Spark 1.3`，官方直达：<a href="https://cline.bot/" target="_blank" rel="noopener noreferrer">https://cline.bot/</a>。
+  - **WorkBuddy 国际版**：限时免费开放 `DeepSeek-V4.1-Flash` 与 `Hy4 Preview`（活动时间：09.11 ~ 09.25），腾讯全场景 Agent 工作台，官方直达：<a href="https://www.workbuddy.ai/" target="_blank" rel="noopener noreferrer">https://www.workbuddy.ai/</a>。
+  - **WorkBuddy 国内版**：限时免费开放 `Hy4 Preview`（活动时间：08.28 ~ 09.30），高峰期排队提示，官方直达：<a href="https://www.workbuddy.cn/" target="_blank" rel="noopener noreferrer">https://www.workbuddy.cn/</a>。
+  - **OpenCode**：开源 AI Coding Agent，无需绑卡长期免费使用 `Ling 3.0 Flash Fin Free`，官方直达：<a href="https://opencode.ai/" target="_blank" rel="noopener noreferrer">https://opencode.ai/</a>。
 - **优化限时免费专区版面结构**：
   - 在 `README.md` 的“🔥 当前限时免费”章节中，将 5 大客户端与云端平台模型统一整合进「平台与云端 API 限时免费」单一表格，表头升级为「平台 / 客户端」，便于横向对比。
   - 增加限时福利实测的核心注意事项（活动截止期、免绑卡门槛、国内排队与动态调整提醒）。

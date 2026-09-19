@@ -6,11 +6,11 @@
 > 精选中国本土大模型厂商与国内直连 AI 平台提供的永久免费 API、免费模型与限时免费额度。  
 > 拒绝海外套壳，拒绝把“开源模型”硬当“免费 API”，一手官方真实数据，开箱即用。
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version: 1.1.4](https://img.shields.io/badge/Version-1.1.4-green.svg)](CHANGELOG.md)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Verified](https://img.shields.io/badge/Last%20Verified-2026--09--19-orange.svg)](#-平台与模型详细档案)
-[![OpenAI Compatible](https://img.shields.io/badge/OpenAI-Compatible%20100%25-green.svg)](docs/openai-compatible.md)
+<a href="LICENSE" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+<a href="CHANGELOG.md" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Version-1.1.4-green.svg" alt="Version: 1.1.4"></a>
+<a href="CONTRIBUTING.md" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+<a href="#-平台与模型详细档案"><img src="https://img.shields.io/badge/Last%20Verified-2026--09--19-orange.svg" alt="Last Verified"></a>
+<a href="docs/openai-compatible.md" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/OpenAI-Compatible%20100%25-green.svg" alt="OpenAI Compatible"></a>
 
 [🔥 限时免费](#-当前限时免费) · [🌟 推荐](#-推荐) · [🚀 场景速选](#-不知道选哪个) · [🔑 快速入口](#-中国免费-api-快速入口) · [⚡ OpenAI 兼容调用](#-openai-compatible) · [💻 AI 编程配置](#-ai-coding-编程工具配置) · [📊 完整清单](#-平台与模型详细档案)
 
@@ -48,15 +48,15 @@
 
 | 平台 / 客户端 | 重点模型 | 免费额度 / 说明 | 状态 | 官方入口 | 特别说明 |
 | :--- | :--- | :--- | :---: | :---: | :--- |
-| **千问 Qoder** | `Qwen3.8-Flash-Next` | **限时免费开放** | 🔥 限时<br>(09.18 ~ 09.30) | <a href="https://qoder.com/" target="_blank" rel="noopener noreferrer">官方网站 →</a> | 面向 AI Coding / Agent 场景的开发工具，支持桌面端、IDE 与 CLI 等多种使用方式。 |
-| **Cline** | `DeepSeek-V4.1-Flash`<br>`GLM-5.3-Flash`<br>`Muse Spark 1.3` | **免绑卡注册即用** | 🟢 免费体验 | <a href="https://cline.bot/" target="_blank" rel="noopener noreferrer">官方网站 →</a> | 零门槛，只需安装扩展并注册账号即可直接调用，完全不需要绑定银行卡。 |
-| **WorkBuddy 国际版** | `DeepSeek-V4.1-Flash`<br>`Hy4 Preview` | **限时免费开放** | 🔥 限时<br>(09.11 ~ 09.25) | <a href="https://www.workbuddy.ai/" target="_blank" rel="noopener noreferrer">官方网站 →</a> | 腾讯全场景 AI Agent 办公/编程工作台，支持复杂任务自主拆解与工具链执行。 |
-| **WorkBuddy 国内版** | `Hy4 Preview` | **限时免费开放** | 🔥 限时<br>(08.28 ~ 09.30) | <a href="https://www.workbuddy.cn/" target="_blank" rel="noopener noreferrer">官方网站 →</a> | ⚠️ **注意**：目前国内版排队时间相对较长，实际使用可能需要耐心等待。 |
-| **OpenCode** | `Ling 3.0 Flash Fin Free` | **免绑卡直接使用** | 🟢 长期免费 | <a href="https://opencode.ai/" target="_blank" rel="noopener noreferrer">官方网站 →</a> | 开源 AI Coding Agent，支持终端、桌面端与 IDE 扩展，无需绑卡开箱即用。 |
-| **Z.ai / ZCode<br>(智谱 GLM 编码计划)** | GLM-5.3-Flash | **限时时段完全无限制**<br>第三方代理 **2x 配额** | 🔥 限时<br>(09.03 ~ 09.20) | <a href="https://z.ai" target="_blank" rel="noopener noreferrer">官方网站 →</a> | ⚡ **重磅福利**：每天北京时间 **23:00~次日 09:00**，在官方 ZCode ADE 桌面端内**无限制免费使用 GLM-5.3-Flash**；在其他支持的编程代理（Cursor、Claude Code、Cline 等）中享受 **2x Flash 配额**！ |
-| **商汤日日新 / 智子星 (SenseNova)** | GLM / K3 | **约 60 万积分** 免费额度 | 🟢 免费额度 | <a href="https://platform.sensenova.cn/" target="_blank" rel="noopener noreferrer">官方平台 →</a> | 当前平台提供约 60 万积分免费额度，可使用 GLM、K3 等模型；免费政策可能调整，请以官方页面为准。 |
-| **AMD 开发者** | DeepSeek V4 Flash | **当前免费** | 🔥 限时 | <a href="https://developer.amd.com.cn" target="_blank" rel="noopener noreferrer">官方网站 →</a> | ⚠️ 限时免费：当前可免费使用 DeepSeek V4 Flash，活动可能随时结束，建议尽快领取。 |
-| **华为云 CodeArts / 码道** | GLM5.3Flash | 每天 **1000 万 Tokens** | 🔥 限时 | <a href="https://activity.huaweicloud.com/codearts_agent.html" target="_blank" rel="noopener noreferrer">官方活动 →</a> | ⚡ 限时活动：每人每天免费赠送 1000 万 Tokens，可使用 GLM5.3Flash。活动规则可能调整，请以华为云官方页面为准。 |
+| <a href="https://qoder.com/" target="_blank" rel="noopener noreferrer">**千问 Qoder**</a> | `Qwen3.8-Flash-Next` | **限时免费开放** | 🔥 限时<br>(09.18 ~ 09.30) | <a href="https://qoder.com/" target="_blank" rel="noopener noreferrer">官方网站 →</a> | 面向 AI Coding / Agent 场景的开发工具，支持桌面端、IDE 与 CLI 等多种使用方式。 |
+| <a href="https://cline.bot/" target="_blank" rel="noopener noreferrer">**Cline**</a> | `DeepSeek-V4.1-Flash`<br>`GLM-5.3-Flash`<br>`Muse Spark 1.3` | **免绑卡注册即用** | 🟢 免费体验 | <a href="https://cline.bot/" target="_blank" rel="noopener noreferrer">官方网站 →</a> | 零门槛，只需安装扩展并注册账号即可直接调用，完全不需要绑定银行卡。 |
+| <a href="https://www.workbuddy.ai/" target="_blank" rel="noopener noreferrer">**WorkBuddy 国际版**</a> | `DeepSeek-V4.1-Flash`<br>`Hy4 Preview` | **限时免费开放** | 🔥 限时<br>(09.11 ~ 09.25) | <a href="https://www.workbuddy.ai/" target="_blank" rel="noopener noreferrer">官方网站 →</a> | 腾讯全场景 AI Agent 办公/编程工作台，支持复杂任务自主拆解与工具链执行。 |
+| <a href="https://www.workbuddy.cn/" target="_blank" rel="noopener noreferrer">**WorkBuddy 国内版**</a> | `Hy4 Preview` | **限时免费开放** | 🔥 限时<br>(08.28 ~ 09.30) | <a href="https://www.workbuddy.cn/" target="_blank" rel="noopener noreferrer">官方网站 →</a> | ⚠️ **注意**：目前国内版排队时间相对较长，实际使用可能需要耐心等待。 |
+| <a href="https://opencode.ai/" target="_blank" rel="noopener noreferrer">**OpenCode**</a> | `Ling 3.0 Flash Fin Free` | **免绑卡直接使用** | 🟢 长期免费 | <a href="https://opencode.ai/" target="_blank" rel="noopener noreferrer">官方网站 →</a> | 开源 AI Coding Agent，支持终端、桌面端与 IDE 扩展，无需绑卡开箱即用。 |
+| <a href="https://z.ai" target="_blank" rel="noopener noreferrer">**Z.ai / ZCode<br>(智谱 GLM 编码计划)**</a> | GLM-5.3-Flash | **限时时段完全无限制**<br>第三方代理 **2x 配额** | 🔥 限时<br>(09.03 ~ 09.20) | <a href="https://z.ai" target="_blank" rel="noopener noreferrer">官方网站 →</a> | ⚡ **重磅福利**：每天北京时间 **23:00~次日 09:00**，在官方 ZCode ADE 桌面端内**无限制免费使用 GLM-5.3-Flash**；在其他支持的编程代理（Cursor、Claude Code、Cline 等）中享受 **2x Flash 配额**！ |
+| <a href="https://platform.sensenova.cn/" target="_blank" rel="noopener noreferrer">**商汤日日新 / 智子星 (SenseNova)**</a> | GLM / K3 | **约 60 万积分** 免费额度 | 🟢 免费额度 | <a href="https://platform.sensenova.cn/" target="_blank" rel="noopener noreferrer">官方平台 →</a> | 当前平台提供约 60 万积分免费额度，可使用 GLM、K3 等模型；免费政策可能调整，请以官方页面为准。 |
+| <a href="https://developer.amd.com.cn" target="_blank" rel="noopener noreferrer">**AMD 开发者**</a> | DeepSeek V4 Flash | **当前免费** | 🔥 限时 | <a href="https://developer.amd.com.cn" target="_blank" rel="noopener noreferrer">官方网站 →</a> | ⚠️ 限时免费：当前可免费使用 DeepSeek V4 Flash，活动可能随时结束，建议尽快领取。 |
+| <a href="https://activity.huaweicloud.com/codearts_agent.html" target="_blank" rel="noopener noreferrer">**华为云 CodeArts / 码道**</a> | GLM5.3Flash | 每天 **1000 万 Tokens** | 🔥 限时 | <a href="https://activity.huaweicloud.com/codearts_agent.html" target="_blank" rel="noopener noreferrer">官方活动 →</a> | ⚡ 限时活动：每人每天免费赠送 1000 万 Tokens，可使用 GLM5.3Flash。活动规则可能调整，请以华为云官方页面为准。 |
 
 > [!IMPORTANT]
 > **限时福利实测与使用提醒**：
@@ -105,20 +105,20 @@
 
 | 平台 | 免费情况 | 获取 API Key 地址 | OpenAI Compatible Base URL | 备注说明 |
 | :--- | :---: | :--- | :--- | :--- |
-| **魔搭社区** | 🟢 长期免费 | <a href="https://modelscope.cn/my/myaccesstoken" target="_blank" rel="noopener noreferrer">获取 Access Token →</a> | `https://api-inference.modelscope.cn/v1/` | 每日 2000 次免费，涵盖数十款热门模型 |
-| **智谱 AI** | 🟢 长期免费 | <a href="https://open.bigmodel.cn/usercenter/apikeys" target="_blank" rel="noopener noreferrer">创建 API Key →</a> | `https://open.bigmodel.cn/api/paas/v4` | GLM-4-Flash 永久免费，支持 128K |
-| **硅基流动** | 🟢 长期免费 | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener noreferrer">创建 API Key →</a> | `https://api.siliconflow.cn/v1` | 免费模型子集无限量调用 |
-| **百度千帆** | 🟢 长期免费 | <a href="https://console.bce.baidu.com/qianfan/overview" target="_blank" rel="noopener noreferrer">获取千帆 Key →</a> | `https://qianfan.baidubce.com/v2` | ERNIE-Speed/Lite 系列全面免费 |
-| **讯飞星火** | 🟢 长期免费 | <a href="https://console.xfyun.cn/services/cbm" target="_blank" rel="noopener noreferrer">创建应用获取 Key →</a> | `https://spark-api-open.xf-yun.com/v1` | Spark Lite 永久免费 |
-| **阿里云百炼** | 🟡 有免费额度 | <a href="https://bailian.console.aliyun.com/#/api-key" target="_blank" rel="noopener noreferrer">创建百炼 API-KEY →</a> | `https://dashscope.aliyuncs.com/compatible-mode/v1` | 通义千问各模型送 100万~200万 Tokens |
-| **DeepSeek** | 🟠 新用户免费 | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener noreferrer">创建 DeepSeek Key →</a> | `https://api.deepseek.com` | 注册送 500 万 Tokens (原厂 V3/R1) |
-| **火山引擎** | 🟡 有免费额度 | <a href="https://console.volcengine.com/ark" target="_blank" rel="noopener noreferrer">创建火山 API Key →</a> | `https://ark.cn-beijing.volces.com/api/v3` | 每个模型接入点赠送 50万~500万 Tokens |
-| **月之暗面 (Kimi)** | 🟠 新用户免费 | <a href="https://platform.moonshot.cn/console/api-keys" target="_blank" rel="noopener noreferrer">创建 Kimi Key →</a> | `https://api.moonshot.cn/v1` | 注册送 15 元体验额度 |
-| **MiniMax** | 🟠 新用户免费 | <a href="https://platform.minimaxi.com/user-center/basic-information/interface-key" target="_blank" rel="noopener noreferrer">创建 MiniMax Key →</a> | `https://api.minimax.chat/v1` | 注册送 15 元额度，支持百万上下文 |
-| **无问芯穹** | 🟢 长期免费 | <a href="https://cloud.infini-ai.com/api-key" target="_blank" rel="noopener noreferrer">获取 Infini Key →</a> | `https://cloud.infini-ai.com/maas/v1` | 每日赠送/免费调用 DeepSeek & Qwen |
-| **零一万物** | 🟠 新用户免费 | <a href="https://platform.lingyiwanwu.com/apikeys" target="_blank" rel="noopener noreferrer">获取 01 Key →</a> | `https://api.lingyiwanwu.com/v1` | 注册赠送测试额度 (Yi-Lightning) |
-| **Z.ai (智谱 GLM 计划)** | 🔥 限时免费 | <a href="https://z.ai" target="_blank" rel="noopener noreferrer">获取 Z.ai 权限 →</a> | `https://api.z.ai/v1` | 9.3~9.20 每天 23:00~09:00 在 ZCode 客户端完全无限制，第三方代理 2x 配额 |
-| **移动云 (中国移动)** | 🟡 有免费额度 | <a href="https://ecloud.10086.cn/api/page/maas/moma/modelSquare" target="_blank" rel="noopener noreferrer">开通移动云 MaaS →</a> | 待控制台获取 | 开通体验赠送 2500 万 Tokens，支持 DeepSeek-V4-Flash-0731 |
+| <a href="https://www.modelscope.cn" target="_blank" rel="noopener noreferrer">**魔搭社区**</a> | 🟢 长期免费 | <a href="https://modelscope.cn/my/myaccesstoken" target="_blank" rel="noopener noreferrer">获取 Access Token →</a> | `https://api-inference.modelscope.cn/v1/` | 每日 2000 次免费，涵盖数十款热门模型 |
+| <a href="https://open.bigmodel.cn" target="_blank" rel="noopener noreferrer">**智谱 AI**</a> | 🟢 长期免费 | <a href="https://open.bigmodel.cn/usercenter/apikeys" target="_blank" rel="noopener noreferrer">创建 API Key →</a> | `https://open.bigmodel.cn/api/paas/v4` | GLM-4-Flash 永久免费，支持 128K |
+| <a href="https://cloud.siliconflow.cn" target="_blank" rel="noopener noreferrer">**硅基流动**</a> | 🟢 长期免费 | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener noreferrer">创建 API Key →</a> | `https://api.siliconflow.cn/v1` | 免费模型子集无限量调用 |
+| <a href="https://cloud.baidu.com/product/wenxinworkshop" target="_blank" rel="noopener noreferrer">**百度千帆**</a> | 🟢 长期免费 | <a href="https://console.bce.baidu.com/qianfan/overview" target="_blank" rel="noopener noreferrer">获取千帆 Key →</a> | `https://qianfan.baidubce.com/v2` | ERNIE-Speed/Lite 系列全面免费 |
+| <a href="https://xinghuo.xfyun.cn" target="_blank" rel="noopener noreferrer">**讯飞星火**</a> | 🟢 长期免费 | <a href="https://console.xfyun.cn/services/cbm" target="_blank" rel="noopener noreferrer">创建应用获取 Key →</a> | `https://spark-api-open.xf-yun.com/v1` | Spark Lite 永久免费 |
+| <a href="https://bailian.console.aliyun.com" target="_blank" rel="noopener noreferrer">**阿里云百炼**</a> | 🟡 有免费额度 | <a href="https://bailian.console.aliyun.com/#/api-key" target="_blank" rel="noopener noreferrer">创建百炼 API-KEY →</a> | `https://dashscope.aliyuncs.com/compatible-mode/v1` | 通义千问各模型送 100万~200万 Tokens |
+| <a href="https://platform.deepseek.com" target="_blank" rel="noopener noreferrer">**DeepSeek**</a> | 🟠 新用户免费 | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener noreferrer">创建 DeepSeek Key →</a> | `https://api.deepseek.com` | 注册送 500 万 Tokens (原厂 V3/R1) |
+| <a href="https://console.volcengine.com/ark" target="_blank" rel="noopener noreferrer">**火山引擎**</a> | 🟡 有免费额度 | <a href="https://console.volcengine.com/ark" target="_blank" rel="noopener noreferrer">创建火山 API Key →</a> | `https://ark.cn-beijing.volces.com/api/v3` | 每个模型接入点赠送 50万~500万 Tokens |
+| <a href="https://platform.moonshot.cn" target="_blank" rel="noopener noreferrer">**月之暗面 (Kimi)**</a> | 🟠 新用户免费 | <a href="https://platform.moonshot.cn/console/api-keys" target="_blank" rel="noopener noreferrer">创建 Kimi Key →</a> | `https://api.moonshot.cn/v1` | 注册送 15 元体验额度 |
+| <a href="https://platform.minimaxi.com" target="_blank" rel="noopener noreferrer">**MiniMax**</a> | 🟠 新用户免费 | <a href="https://platform.minimaxi.com/user-center/basic-information/interface-key" target="_blank" rel="noopener noreferrer">创建 MiniMax Key →</a> | `https://api.minimax.chat/v1` | 注册送 15 元额度，支持百万上下文 |
+| <a href="https://cloud.infini-ai.com" target="_blank" rel="noopener noreferrer">**无问芯穹**</a> | 🟢 长期免费 | <a href="https://cloud.infini-ai.com/api-key" target="_blank" rel="noopener noreferrer">获取 Infini Key →</a> | `https://cloud.infini-ai.com/maas/v1` | 每日赠送/免费调用 DeepSeek & Qwen |
+| <a href="https://platform.lingyiwanwu.com" target="_blank" rel="noopener noreferrer">**零一万物**</a> | 🟠 新用户免费 | <a href="https://platform.lingyiwanwu.com/apikeys" target="_blank" rel="noopener noreferrer">获取 01 Key →</a> | `https://api.lingyiwanwu.com/v1` | 注册赠送测试额度 (Yi-Lightning) |
+| <a href="https://z.ai" target="_blank" rel="noopener noreferrer">**Z.ai (智谱 GLM 计划)**</a> | 🔥 限时免费 | <a href="https://z.ai" target="_blank" rel="noopener noreferrer">获取 Z.ai 权限 →</a> | `https://api.z.ai/v1` | 9.3~9.20 每天 23:00~09:00 在 ZCode 客户端完全无限制，第三方代理 2x 配额 |
+| <a href="https://ecloud.10086.cn/api/page/maas/moma/modelSquare" target="_blank" rel="noopener noreferrer">**移动云 (中国移动)**</a> | 🟡 有免费额度 | <a href="https://ecloud.10086.cn/api/page/maas/moma/modelSquare" target="_blank" rel="noopener noreferrer">开通移动云 MaaS →</a> | 待控制台获取 | 开通体验赠送 2500 万 Tokens，支持 DeepSeek-V4-Flash-0731 |
 
 ---
 
@@ -146,7 +146,7 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 ```
 
-👉 **查看更多语言 (TypeScript, cURL, LangChain) 及厂商适配细节**：[OpenAI Compatible 详细指南](docs/openai-compatible.md)
+👉 **查看更多语言 (TypeScript, cURL, LangChain) 及厂商适配细节**：<a href="docs/openai-compatible.md" target="_blank" rel="noopener noreferrer">OpenAI Compatible 详细指南 →</a>
 
 ---
 
@@ -161,7 +161,7 @@ print(response.choices[0].message.content)
 - **Cline (VS Code)**：选择 `OpenAI Compatible` 模式，填入 Base URL 与 Key 即可。
 - **OpenCode / Aider**：在配置文件中直接指定国内端点与模型。
 
-👉 **查看各编程工具完整配置教程与模版**：[AI Coding 编程工具配置手册](docs/coding-tools.md)
+👉 **查看各编程工具完整配置教程与模版**：<a href="docs/coding-tools.md" target="_blank" rel="noopener noreferrer">AI Coding 编程工具配置手册 →</a>
 
 ---
 
@@ -171,40 +171,40 @@ print(response.choices[0].message.content)
 
 | 厂商 / 平台 | 模型名称 | 真实 Model ID | 免费状态 | 免费额度 / 规则 | 上下文 | 模态 | 实名认证 | 手机注册 | 充值门槛 |
 | :--- | :--- | :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
-| **魔搭社区** | Qwen2.5-72B | `Qwen/Qwen2.5-72B-Instruct` | 🟢 长期免费 | 每日 2000 次免费调用 (0点重置) | 128K | 文本/代码 | 否 | 是 | 无需充值 |
-| **魔搭社区** | Qwen2.5-Coder-32B | `Qwen/Qwen2.5-Coder-32B-Instruct` | 🟢 长期免费 | 每日 2000 次免费调用 (0点重置) | 128K | 文本/代码 | 否 | 是 | 无需充值 |
-| **魔搭社区** | DeepSeek-R1 | `deepseek-ai/DeepSeek-R1` | 🟢 长期免费 | 每日 2000 次免费调用 (0点重置) | 64K | 推理/文本 | 否 | 是 | 无需充值 |
-| **魔搭社区** | DeepSeek-V3 | `deepseek-ai/DeepSeek-V3` | 🟢 长期免费 | 每日 2000 次免费调用 (0点重置) | 64K | 文本/代码 | 否 | 是 | 无需充值 |
-| **魔搭社区** | Qwen2.5-VL-72B | `Qwen/Qwen2.5-VL-72B-Instruct` | 🟢 长期免费 | 每日 2000 次免费调用 (0点重置) | 32K | 图像/视觉 | 否 | 是 | 无需充值 |
-| **硅基流动** | DeepSeek-R1-Distill-7B | `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B` | 🟢 长期免费 | 免费子集无限量调用 (60 RPM) | 32K | 推理/文本 | 是 | 是 | 无需充值 |
-| **硅基流动** | Qwen2.5-7B | `Qwen/Qwen2.5-7B-Instruct` | 🟢 长期免费 | 免费子集无限量调用 (60 RPM) | 32K | 文本/代码 | 是 | 是 | 无需充值 |
-| **硅基流动** | GLM-4-9B-Chat | `THUDM/glm-4-9b-chat` | 🟢 长期免费 | 免费子集无限量调用 (60 RPM) | 32K | 文本 | 是 | 是 | 无需充值 |
-| **智谱 AI** | GLM-4-Flash | `glm-4-flash` | 🟢 长期免费 | 永久免费商用，支持高并发 | 128K | 文本/代码 | 否 | 是 | 无需充值 |
-| **百度千帆** | ERNIE-Speed-8K | `ernie-speed-8k` | 🟢 长期免费 | 官方永久免费开放 | 8K | 文本 | 是 | 是 | 无需充值 |
-| **百度千帆** | ERNIE-Speed-128K | `ernie-speed-128k` | 🟢 长期免费 | 官方永久免费开放，超长上下文 | 128K | 文本 | 是 | 是 | 无需充值 |
-| **百度千帆** | ERNIE-Lite-8K | `ernie-lite-8k` | 🟢 长期免费 | 官方永久免费开放 | 8K | 文本 | 是 | 是 | 无需充值 |
-| **讯飞星火** | Spark Lite | `spark-lite` | 🟢 长期免费 | 永久免费，HTTP/WS 双接口 | 8K | 文本 | 是 | 是 | 无需充值 |
-| **阿里云百炼** | Qwen-Plus | `qwen-plus` | 🟡 有免费额度 | 开通赠送 100 万 Tokens (90天) | 128K | 文本/代码 | 是 | 是 | 无需充值 |
-| **阿里云百炼** | Qwen-Turbo | `qwen-turbo` | 🟡 有免费额度 | 开通赠送 200 万 Tokens (90天) | 128K | 文本/代码 | 是 | 是 | 无需充值 |
-| **DeepSeek** | DeepSeek-V3 | `deepseek-chat` | 🟠 新用户免费 | 注册赠送 500 万 Tokens (1个月) | 64K | 文本/代码 | 否 | 是 | 无需充值 |
-| **DeepSeek** | DeepSeek-R1 | `deepseek-reasoner` | 🟠 新用户免费 | 注册赠送 500 万 Tokens (1个月) | 64K | 推理/文本 | 否 | 是 | 无需充值 |
-| **火山引擎** | Doubao-Lite-32k | `doubao-lite-32k` | 🟡 有免费额度 | 开通接入点赠送 500 万 Tokens | 32K | 文本 | 是 | 是 | 无需充值 |
-| **Moonshot** | Moonshot-v1-8k | `moonshot-v1-8k` | 🟠 新用户免费 | 注册赠送 15 元额度包 | 8K | 文本 | 否 | 是 | 无需充值 |
-| **MiniMax** | MiniMax-Text-01 | `MiniMax-Text-01` | 🟠 新用户免费 | 注册赠送 15 元额度，支持百万上下文 | 1M | 文本/代码 | 否 | 是 | 无需充值 |
-| **商汤日日新 / 智子星** | GLM / K3 | `GLM / K3 (平台内)` | 🟡 有免费额度 | 约 60 万积分免费额度 (可使用 GLM、K3 等) | 平台内 | 文本/通用 | 否 | 是 | 无需充值 |
-| **AMD 开发者** | DeepSeek V4 Flash | `DeepSeek V4 Flash` | 🔥 限时免费 | 当前完全免费使用 (限时福利，随时可能结束) | 平台内/待确认 | 文本/代码 | 否 | 是 | 无需充值 |
-| **华为云 码道** | GLM5.3Flash | `GLM5.3Flash` | 🔥 限时免费 | 每人每天免费赠送 1000 万 Tokens | 平台内/待确认 | 文本/代码 | 是 | 是 | 无需充值 |
-| **Z.ai / ZCode** | GLM-5.3-Flash | `glm-5.3-flash` | 🔥 限时免费 | 9.3~9.20 每天北京时间 23:00~09:00 在 ZCode 客户端内完全无限制免费；其他代理 2x 配额 | 128K | 文本/代码/视觉 | 否 | 否 | 无需充值 |
-| **移动云 (中国移动)** | DeepSeek-V4-Flash-0731 | `DeepSeek-V4-Flash-0731` | 🟡 有免费额度 | 开通体验赠送 2500 万 Tokens 资源包 | 128K | 文本/代码 | 是 | 是 | 无需充值 |
+| <a href="https://www.modelscope.cn" target="_blank" rel="noopener noreferrer">**魔搭社区**</a> | Qwen2.5-72B | `Qwen/Qwen2.5-72B-Instruct` | 🟢 长期免费 | 每日 2000 次免费调用 (0点重置) | 128K | 文本/代码 | 否 | 是 | 无需充值 |
+| <a href="https://www.modelscope.cn" target="_blank" rel="noopener noreferrer">**魔搭社区**</a> | Qwen2.5-Coder-32B | `Qwen/Qwen2.5-Coder-32B-Instruct` | 🟢 长期免费 | 每日 2000 次免费调用 (0点重置) | 128K | 文本/代码 | 否 | 是 | 无需充值 |
+| <a href="https://www.modelscope.cn" target="_blank" rel="noopener noreferrer">**魔搭社区**</a> | DeepSeek-R1 | `deepseek-ai/DeepSeek-R1` | 🟢 长期免费 | 每日 2000 次免费调用 (0点重置) | 64K | 推理/文本 | 否 | 是 | 无需充值 |
+| <a href="https://www.modelscope.cn" target="_blank" rel="noopener noreferrer">**魔搭社区**</a> | DeepSeek-V3 | `deepseek-ai/DeepSeek-V3` | 🟢 长期免费 | 每日 2000 次免费调用 (0点重置) | 64K | 文本/代码 | 否 | 是 | 无需充值 |
+| <a href="https://www.modelscope.cn" target="_blank" rel="noopener noreferrer">**魔搭社区**</a> | Qwen2.5-VL-72B | `Qwen/Qwen2.5-VL-72B-Instruct` | 🟢 长期免费 | 每日 2000 次免费调用 (0点重置) | 32K | 图像/视觉 | 否 | 是 | 无需充值 |
+| <a href="https://cloud.siliconflow.cn" target="_blank" rel="noopener noreferrer">**硅基流动**</a> | DeepSeek-R1-Distill-7B | `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B` | 🟢 长期免费 | 免费子集无限量调用 (60 RPM) | 32K | 推理/文本 | 是 | 是 | 无需充值 |
+| <a href="https://cloud.siliconflow.cn" target="_blank" rel="noopener noreferrer">**硅基流动**</a> | Qwen2.5-7B | `Qwen/Qwen2.5-7B-Instruct` | 🟢 长期免费 | 免费子集无限量调用 (60 RPM) | 32K | 文本/代码 | 是 | 是 | 无需充值 |
+| <a href="https://cloud.siliconflow.cn" target="_blank" rel="noopener noreferrer">**硅基流动**</a> | GLM-4-9B-Chat | `THUDM/glm-4-9b-chat` | 🟢 长期免费 | 免费子集无限量调用 (60 RPM) | 32K | 文本 | 是 | 是 | 无需充值 |
+| <a href="https://open.bigmodel.cn" target="_blank" rel="noopener noreferrer">**智谱 AI**</a> | GLM-4-Flash | `glm-4-flash` | 🟢 长期免费 | 永久免费商用，支持高并发 | 128K | 文本/代码 | 否 | 是 | 无需充值 |
+| <a href="https://cloud.baidu.com/product/wenxinworkshop" target="_blank" rel="noopener noreferrer">**百度千帆**</a> | ERNIE-Speed-8K | `ernie-speed-8k` | 🟢 长期免费 | 官方永久免费开放 | 8K | 文本 | 是 | 是 | 无需充值 |
+| <a href="https://cloud.baidu.com/product/wenxinworkshop" target="_blank" rel="noopener noreferrer">**百度千帆**</a> | ERNIE-Speed-128K | `ernie-speed-128k` | 🟢 长期免费 | 官方永久免费开放，超长上下文 | 128K | 文本 | 是 | 是 | 无需充值 |
+| <a href="https://cloud.baidu.com/product/wenxinworkshop" target="_blank" rel="noopener noreferrer">**百度千帆**</a> | ERNIE-Lite-8K | `ernie-lite-8k` | 🟢 长期免费 | 官方永久免费开放 | 8K | 文本 | 是 | 是 | 无需充值 |
+| <a href="https://xinghuo.xfyun.cn" target="_blank" rel="noopener noreferrer">**讯飞星火**</a> | Spark Lite | `spark-lite` | 🟢 长期免费 | 永久免费，HTTP/WS 双接口 | 8K | 文本 | 是 | 是 | 无需充值 |
+| <a href="https://bailian.console.aliyun.com" target="_blank" rel="noopener noreferrer">**阿里云百炼**</a> | Qwen-Plus | `qwen-plus` | 🟡 有免费额度 | 开通赠送 100 万 Tokens (90天) | 128K | 文本/代码 | 是 | 是 | 无需充值 |
+| <a href="https://bailian.console.aliyun.com" target="_blank" rel="noopener noreferrer">**阿里云百炼**</a> | Qwen-Turbo | `qwen-turbo` | 🟡 有免费额度 | 开通赠送 200 万 Tokens (90天) | 128K | 文本/代码 | 是 | 是 | 无需充值 |
+| <a href="https://platform.deepseek.com" target="_blank" rel="noopener noreferrer">**DeepSeek**</a> | DeepSeek-V3 | `deepseek-chat` | 🟠 新用户免费 | 注册赠送 500 万 Tokens (1个月) | 64K | 文本/代码 | 否 | 是 | 无需充值 |
+| <a href="https://platform.deepseek.com" target="_blank" rel="noopener noreferrer">**DeepSeek**</a> | DeepSeek-R1 | `deepseek-reasoner` | 🟠 新用户免费 | 注册赠送 500 万 Tokens (1个月) | 64K | 推理/文本 | 否 | 是 | 无需充值 |
+| <a href="https://console.volcengine.com/ark" target="_blank" rel="noopener noreferrer">**火山引擎**</a> | Doubao-Lite-32k | `doubao-lite-32k` | 🟡 有免费额度 | 开通接入点赠送 500 万 Tokens | 32K | 文本 | 是 | 是 | 无需充值 |
+| <a href="https://platform.moonshot.cn" target="_blank" rel="noopener noreferrer">**Moonshot**</a> | Moonshot-v1-8k | `moonshot-v1-8k` | 🟠 新用户免费 | 注册赠送 15 元额度包 | 8K | 文本 | 否 | 是 | 无需充值 |
+| <a href="https://platform.minimaxi.com" target="_blank" rel="noopener noreferrer">**MiniMax**</a> | MiniMax-Text-01 | `MiniMax-Text-01` | 🟠 新用户免费 | 注册赠送 15 元额度，支持百万上下文 | 1M | 文本/代码 | 否 | 是 | 无需充值 |
+| <a href="https://platform.sensenova.cn/" target="_blank" rel="noopener noreferrer">**商汤日日新 / 智子星**</a> | GLM / K3 | `GLM / K3 (平台内)` | 🟡 有免费额度 | 约 60 万积分免费额度 (可使用 GLM、K3 等) | 平台内 | 文本/通用 | 否 | 是 | 无需充值 |
+| <a href="https://developer.amd.com.cn" target="_blank" rel="noopener noreferrer">**AMD 开发者**</a> | DeepSeek V4 Flash | `DeepSeek V4 Flash` | 🔥 限时免费 | 当前完全免费使用 (限时福利，随时可能结束) | 平台内/待确认 | 文本/代码 | 否 | 是 | 无需充值 |
+| <a href="https://activity.huaweicloud.com/codearts_agent.html" target="_blank" rel="noopener noreferrer">**华为云 码道**</a> | GLM5.3Flash | `GLM5.3Flash` | 🔥 限时免费 | 每人每天免费赠送 1000 万 Tokens | 平台内/待确认 | 文本/代码 | 是 | 是 | 无需充值 |
+| <a href="https://z.ai" target="_blank" rel="noopener noreferrer">**Z.ai / ZCode**</a> | GLM-5.3-Flash | `glm-5.3-flash` | 🔥 限时免费 | 9.3~9.20 每天北京时间 23:00~09:00 在 ZCode 客户端内完全无限制免费；其他代理 2x 配额 | 128K | 文本/代码/视觉 | 否 | 否 | 无需充值 |
+| <a href="https://ecloud.10086.cn/api/page/maas/moma/modelSquare" target="_blank" rel="noopener noreferrer">**移动云 (中国移动)**</a> | DeepSeek-V4-Flash-0731 | `DeepSeek-V4-Flash-0731` | 🟡 有免费额度 | 开通体验赠送 2500 万 Tokens 资源包 | 128K | 文本/代码 | 是 | 是 | 无需充值 |
 
 ---
 
 ## 📁 结构化数据 (JSON)
 
-本项目所有厂商及模型数据均以结构化 JSON 保存在 [`data/`](data/) 目录中，便于程序调用、脚本集成或二次开发：
+本项目所有厂商及模型数据均以结构化 JSON 保存在 <a href="data/" target="_blank" rel="noopener noreferrer"><code>data/</code></a> 目录中，便于程序调用、脚本集成或二次开发：
 
-- [`data/providers.json`](data/providers.json)：厂商官网、API Key 申请地址、Base URL、认证要求等元数据。
-- [`data/models.json`](data/models.json)：详细 Model ID、上下文大小、输入模态、限速 RPM/RPD、免费类型及验证记录。
+- <a href="data/providers.json" target="_blank" rel="noopener noreferrer"><code>data/providers.json</code></a>：厂商官网、API Key 申请地址、Base URL、认证要求等元数据。
+- <a href="data/models.json" target="_blank" rel="noopener noreferrer"><code>data/models.json</code></a>：详细 Model ID、上下文大小、输入模态、限速 RPM/RPD、免费类型及验证记录。
 
 ---
 
@@ -215,10 +215,10 @@ print(response.choices[0].message.content)
 2. 提供官方文档或官方公告的依据链接。
 3. 标注准确的最后验证日期。
 
-详细规范请参阅 [贡献指南 (CONTRIBUTING.md)](CONTRIBUTING.md)。
+详细规范请参阅 <a href="CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">贡献指南 (CONTRIBUTING.md) →</a>。
 
 ---
 
 ## 📄 开源许可证
 
-本项目基于 [MIT License](LICENSE) 开源。
+本项目基于 <a href="LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a> 开源。
